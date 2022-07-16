@@ -1,0 +1,122 @@
+.shower {
+    --slide-ratio: calc(16 / 9);
+}
+#cover h2 {
+    margin: 30px 0 0;
+    color: #ffffff;
+    text-shadow: 4px 3px 0 #000;
+    text-align: center;
+    font-size: 70px;
+}
+
+#cover p {
+    margin: 10px 0 0;
+    text-align: center;
+    text-shadow: 4px 0px 13px #000;
+
+    color: white;
+    font-size: 24px;
+}
+
+#cover p a {
+    color: white;
+}
+.shout {
+    text-shadow: 4px 0px 13px #000;
+    
+}
+.grayscale {
+    -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(30%);
+}
+.grayscale-dark {
+    -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(60%);
+}
+
+.black * {
+    color: white !important;
+}
+
+.bg-text {
+    display: block;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.center-img {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; /* Need a specific value to work */
+    border-radius: 15px;
+    -webkit-box-shadow: inset 1px 3px 8px 5px #fff, 2px 5px 16px 0px #fff,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset 1px 3px 8px 5px #fff, 2px 5px 16px 0px #fff,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.center-img-black {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; /* Need a specific value to work */
+    border-radius: 15px;
+    border: 1px solid white;
+    -webkit-box-shadow:  1px 3px 8px 50px #000, 2px 5px 16px 50px #000,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow:  1px 3px 8px 50px #000, 2px 5px 16px 50px #000,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.center-img-naked {
+    position: absolute;
+    border-radius: 15px;
+
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overflow {
+    max-height: 450px;
+
+    overflow-y: auto;
+}
+
+.right {
+    text-align: right
+}
+
+#h2 {
+    margin: 30px 0 0;
+    color: #ffffff;
+    text-shadow: 2px 0px 8px #000;
+    
+    font-size: 70px;
+}
+
+
+.right p {
+    margin: 10px 0 0;
+    text-shadow: 4px 0px 13px #000;
+
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+img {
+    border-radius: 5px;
+}
